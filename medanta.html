@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>Hosptals</title>
+        <link rel="stylesheet" href="medanta.css">
+        <link rel="stylesheet" href="./style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"> <img src="./images/image.png" alt="logo"> </a> 
+                </div>
+        
+                <div class="menus">
+                    <ul>
+                        <li> <a href="index.html"> Home </a> </li>
+                        <li> <a href="#home"> Hospitals </a> </li>
+                        <li> <a href="#abouts"> About</a> </li>
+                        <li> <a href="indexmap.html"> google map </a> </li>
+                        <li> <a href="#review"> Reviews </a> </li>
+                        <li> <a href="#counter"> Contact Us </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+        <center><h1>Top Hospitals </h1></center> <br> <hr>
+
+        <!-- hospital-1 -->
+        <section class="hospital-1">
+            <div class="content-1">
+                <div class="img">
+                    <h1>Medanta Hospital 🏥</h1>
+                    <img src="./images/Hospitals/medanta.jpg" alt="">
+                </div>
+                <div class="about-hosp">
+                    <p>Medanta Hospital Lucknow, the largest healthcare service provider in Uttar Pradesh, provides tertiary-level clinical care, backed by a multidisciplinary team of medical professionals with the finest state-of-the-art technologies available in Northern India. With its advanced equipment and modern facilities, Medanta ensures that people from Northern India receive affordable, high-quality medical care in the region, eliminating the need for patients to travel to other parts of the country for treatment. The hospital boasts internationally acclaimed physicians and consultants, associated on a full-time basis, ensuring the highest standards of clinical services, supported by a dedicated and hardworking team of medical and paramedical staff, making it one of the best in Northern India.
+
+                        Let me know if you need further changes! 😊.</p>
+                </div>
+            </div>
+
+            
+            
+            <div class="content">
+                <div class="details">
+                    <pre><p class="hospital-location">Multi-speciality Hospital                   <img src="location.png" alt=""> lucknow</p></pre>
+                    <p><b>₹200 - ₹450</b> Consultation Fees</p>
+                    <pre><b><p>14 Specialities • 16 Doctors </b>             <img src="clock.png" alt="" class="clock"> MON - SUN 08:00AM - 11:00PM</p></pre>
+                </div>
+                
+
+
+                
+
+
+                <div class="top-doctors">
+                    <center><u><h1>Our Specialist</h1></u></center>
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                        <button class="btn" onclick="filterSelection('GP')"> General Physician</button>
+                        <button class="btn" onclick="filterSelection('neuro')"> Neurologist </button>
+                        <button class="btn" onclick="filterSelection('ortho')"> Orthopedist </button>
+                        <button class="btn" onclick="filterSelection('ent')"> ENT </button>
+                    </div>
+                    <div class="filterDiv ortho">
+                        <div class="department">
+                            <img src="./images/Drs/dr-1.jpg" alt="">
+                        </div>
+                        <div class="dr-1-content">
+                            <p>Orthopedist</p>
+                            <hr>
+                            <p>MBBS</p>
+                            <hr>
+                            <p>Consultant Orthopedist</p>
+                            <a href="Appointment.html"><button class="btn-2">View Profile</button></a>
+                            <a href="Appointment.html"><button class="btn-2">Book Appointment</button></a>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv GP">
+                        <div class="department">
+                            <img src="./images/Drs/dr-2.jpg" alt="">
+                        </div>
+                        <div class="dr-1-content">
+                            <p>General Physician</p>
+                            <hr>
+                            <p>MBBS</p>
+                            <hr>
+                            <p>Consultant Physician</p>
+                            <button class="btn-2">View Profile</button>
+                            <button class="btn-2">Book Appointment</button>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv neuro">
+                        <div class="department">
+                            <img src="./images/Drs/dr-3.jpg" alt="">
+                        </div>
+                        <div class="dr-1-content">
+                            <p>Orthopedist</p>
+                            <hr>
+                            <p>Phd</p>
+                            <hr>
+                            <p>Specialist Orthopedist</p>
+                            <button class="btn-2">View Profile</button>
+                            <button class="btn-2">Book Appointment</button>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv ent">
+                        <div class="department">
+                            <img src="./images/Drs/dr-4.jpg" alt="">
+                        </div>
+                        <div class="dr-1-content">
+                            <p>E.N.T.</p>
+                            <hr>
+                            <p>MBBS</p>
+                            <hr>
+                            <p>Eye Specialist</p>
+                            <button class="btn-2">View Profile</button>
+                            <button class="btn-2">Book Appointment</button>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv neuro">
+                        <div class="department">
+                            <img src="./images/Drs/dr-5.jpg" alt="">
+                        </div>
+                        <div class="dr-1-content">
+                            <p>Neurologist</p>
+                            <hr>
+                            <p>MBBS</p>
+                            <hr>
+                            <p>Consultant Neurologist</p>
+                            <button class="btn-2">View Profile</button>
+                            <button class="btn-2">Book Appointment</button>
+                        </div>
+                    </div>
+
+                    <div class="filterDiv GP">
+                        <div class="department">
+                            <img src="./images/Drs/dr-6.jpg" alt="">
+                        </div>
+                        <div class="dr-1-content">
+                            <p>General Physician</p>
+                            <hr>
+                            <p>MBBS</p>
+                            <hr>
+                            <p>Consultant Physician</p>
+                            <button class="btn-2">View Profile</button>
+                            <button class="btn-2">Book Appointment</button>
+                        </div>
+                    </div>
+
+
+
+            
+                </div>
+                </div>
+        </section>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
